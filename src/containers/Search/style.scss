@@ -1,0 +1,62 @@
+.SearchSection {
+    background-color: #EA8E95;
+    display: block;
+    padding-bottom: 50px;
+
+    .Search {
+        background-color: #EA8E95;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            color: #BC4B4C;
+            font-size: xxx-large;
+            font-family: sans-serif;
+        }
+    }
+
+    .Icon {
+        color: #BC4B4C;
+    }
+
+    .CatInfo {
+        background-color: #EA8E95;
+        width: 100%;
+        padding: 20px;
+
+        .BackButton:hover {
+            background-color: #BC4B4C;
+            color: #ffffff;
+        }
+
+        .Metrics {
+            display: flex;
+        }
+
+        h1 {
+            color: #BC4B4C;
+            font-size: xxx-large;
+            font-family: sans-serif;
+        }
+
+        .CatInfoCard {
+            width: 45%;
+            float: left;
+            margin-right: 3%;
+
+            .ImageBox img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .CatInfoGraph {
+            width: 52%;
+            float: left;
+        }
+    }
+}
